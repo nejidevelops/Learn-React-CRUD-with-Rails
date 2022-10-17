@@ -1,3 +1,5 @@
+puts "⚽⚽ Seeding Data"
+
 Team.create([
   {
     "team_name": "Bayern Munich",
@@ -6,6 +8,11 @@ Team.create([
     "country": "Germany"
   },
   {
-
+    "team_name": "Liverpool",
+    "league": "English Premier League",
+    "stadium": "Anfield",
+    "country": "England"
   }
 ])
+
+puts "Done Seeding"
